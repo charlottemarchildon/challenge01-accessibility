@@ -1,13 +1,22 @@
+/*
+Setting the padding and margin of the webpage and using border-box to include borders and padding in the width and height
+*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/*
+Setting background colour of the body to a beige-ish colour
+*/
 body {
     background-color: #d9dcd6;
 }
 
+/*
+Adding padding to header, setting the font, making the background a blue colour, and the text white 
+*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
