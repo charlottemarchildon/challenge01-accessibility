@@ -8,7 +8,7 @@ Setting the padding and margin of the webpage and using border-box to include bo
 }
 
 /*
-Setting background colour of the body to a beige-ish colour
+Setting background colour of the body to a beige colour
 */
 body {
     background-color: #d9dcd6;
@@ -24,15 +24,24 @@ Adding padding to header, setting the font, making the background a blue colour,
     color: #ffffff;
 }
 
+/*
+Setting h1 in header to font size of 48 pixels, display as inline-block
+*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/*
+Setting the span class of .seo within the header h1 to a different colour
+*/
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/*
+Setting the nav inside the header to have a padding of 15px on the top of the links, a margin of 20px from the right of the screen, float assigning the position of the content to the right, declaring the font, and setting font size to 20px
+*/
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -41,20 +50,32 @@ Adding padding to header, setting the font, making the background a blue colour,
     font-size: 20px;
 }
 
+/*
+
+*/
 .header nav ul {
     list-style-type: none;
 }
 
+/* 
+Using inline-block to display list items with a respected margin on the left 
+*/
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* 
+Colouring all <a> tags with a beige-white colour and removing the default text-decoration of underline 
+*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* 
+Making all content within every <p> tag a font-size of 16px
+ */
 p {
     font-size: 16px;
 }
