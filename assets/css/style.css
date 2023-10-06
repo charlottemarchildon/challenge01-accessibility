@@ -158,7 +158,7 @@ Floating images to the right side of the content with a 25px margin between the 
 /* 
 Adding a margin of 20px on the right to match margin of .content.
 Padding of 20px given for content within the container.
-Clear:both to push content below other right or left floating elements.
+Clear:both to push element below other right or left floating elements.
 Aside is displayed on the right side of the screen.
 Aside takes up 20% width of the container and 100% of the height.
 Font is assigned and background is given a blue colour.
@@ -208,7 +208,11 @@ Maximum width of each image is 150px.
     max-width: 150px;
 }
 
-
+/* 
+Padding of 30px applied to top and bottom of the text.
+Clear:both to push element below other right or left floating elements.
+Font is assigned and centered in the container.
+*/
 .footer {
     padding: 30px;
     clear: both;
@@ -216,6 +220,9 @@ Maximum width of each image is 150px.
     text-align: center;
 }
 
+/* 
+Footer h2 font size is made bigger than <p> tag font.
+*/
 .footer h2 {
     font-size: 20px;
 }
