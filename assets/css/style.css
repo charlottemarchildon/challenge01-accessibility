@@ -119,6 +119,9 @@ Each class has the same font, blue background colour, and white text.
     color: #ffffff;
 }
 
+/* 
+Set maximum height images for each class to 200px.
+*/
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
