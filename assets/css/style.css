@@ -80,6 +80,9 @@ p {
     font-size: 16px;
 }
 
+/*
+Setting the height of the image to 800px and making the width span the entire screen. Margin of 25px given to the bottom of image between the .content. Centering the image and setting the size to cover so it fills the entire body container.
+*/
 .hero {
     height: 800px;
     width: 100%;
