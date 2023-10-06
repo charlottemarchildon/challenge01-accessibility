@@ -58,7 +58,7 @@ Setting the nav inside the header to have a padding of 15px on the top of the li
 }
 
 /* 
-Using inline-block to display list items with a respected margin on the left 
+Using inline-block to display list items horizontally with a respected margin on the left 
 */
 .header nav ul li {
     display: inline-block;
@@ -92,6 +92,9 @@ Setting the height of the image to 800px and making the width span the entire sc
     background-position: center;
 }
 
+/*
+Made width of .content 75% of the body container and using display: inline-block to allow room for aside content. Margin of 20px included on the left of container for better styling.
+*/
 .content {
     width: 75%;
     display: inline-block;
