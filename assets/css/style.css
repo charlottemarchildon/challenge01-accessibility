@@ -185,6 +185,10 @@ Margin of 32px given to the bottom of each class to separate content. Text is co
     color: #ffffff;
 }
 
+/* 
+Margin of 10px given to the bottom of aside h3s to separate heading from <p> content.
+Text is centered in container.
+*/
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
