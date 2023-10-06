@@ -101,6 +101,12 @@ Made width of .content 75% of the body container and using display: inline-block
     margin-left: 20px;
 }
 
+/* 
+Putting a margin of 20px at bottom of each class to space out boxes.
+Padding of 50px set to allow room around the content of each class.
+Height of each class set to 300px.
+Each class has the same font, blue background colour, and white text.
+*/
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing
