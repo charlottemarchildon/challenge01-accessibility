@@ -196,6 +196,10 @@ Text is centered in container.
     text-align: center;
 }
 
+/*
+Display as block so images stack on top, margin of 10px added to top and bottom of images and auto used to set left and right margins based on container.
+Maximum width of each image is 150px.
+*/
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
