@@ -155,7 +155,14 @@ Floating images to the right side of the content with a 25px margin between the 
     margin-left: 25px;
 }
 
-
+/* 
+Adding a margin of 20px on the right to match margin of .content.
+Padding of 20px given for content within the container.
+Clear:both to push content below other right or left floating elements.
+Aside is displayed on the right side of the screen.
+Aside takes up 20% width of the container and 100% of the height.
+Font is assigned and background is given a blue colour.
+*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
