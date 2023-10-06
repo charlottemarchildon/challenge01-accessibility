@@ -14,6 +14,21 @@ body {
     background-color: #d9dcd6;
 }
 
+/* 
+Colouring all <a> tags with a beige-white colour and removing the default text-decoration of underline 
+*/
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* 
+Making all content within every <p> tag a font-size of 16px
+*/
+p {
+    font-size: 16px;
+}
+
 /*
 Adding padding to header, setting the font, making the background a blue colour, and the text white 
 */
@@ -65,20 +80,6 @@ Using inline-block to display list items horizontally with a respected margin on
     margin-left: 25px;
 }
 
-/* 
-Colouring all <a> tags with a beige-white colour and removing the default text-decoration of underline 
-*/
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-/* 
-Making all content within every <p> tag a font-size of 16px
-*/
-p {
-    font-size: 16px;
-}
 
 /*
 Setting the height of the image to 800px and making the width span the entire screen. Margin of 25px given to the bottom of image between the .content. Centering the image and setting the size to cover so it fills the entire body container.
