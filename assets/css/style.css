@@ -174,6 +174,10 @@ Font is assigned and background is given a blue colour.
     background-color: #2589bd;
 }
 
+
+/* 
+Margin of 32px given to the bottom of each class to separate content. Text is coloured white.
+*/
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
